@@ -63,13 +63,6 @@ def calc_g_error(w):
     return 0.5 * (sum / 1000)
 
 
-# pairs, x, y = examples(500)
-# w = find_perceptron(pairs)
-# draw_1_a(w, x, y)
-# print("t error: " + str(calc_t_error(w, x, y)))
-# print("g error: " + str(calc_g_error(w)))
-
-
 # Q2 #
 
 def graph_2():
@@ -107,7 +100,6 @@ def gradient_examples(p):
         x.append([temp[i], 1])
         y.append(1 + temp[i] + temp[i] * temp[i] + temp[i] * temp[i] * temp[i])
         res.append([x[i], y[i]])
-
 
     return res, x, y
 

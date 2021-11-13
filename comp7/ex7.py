@@ -41,7 +41,6 @@ def calc_sum_switch(v, s_i):
 
 def next_state(s, a):
     probabilities = p[s][a]
-    # print(probabilities)
     next_s = np.random.binomial(1, probabilities[1], 1)[0]
     return next_s, r[s][a]
 
