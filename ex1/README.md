@@ -1,1 +1,1 @@
-#ex 1 - Hopfield network
+# ex 1 - Hopfield network
