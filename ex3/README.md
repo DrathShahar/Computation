@@ -1,0 +1,1 @@
+# ex 3 - Linear Perceptron, Gradient Learning, Correlation Matrix

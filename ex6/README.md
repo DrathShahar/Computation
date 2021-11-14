@@ -1,0 +1,1 @@
+# ex 6 - Digit recognition by stochastic binary perceptron
